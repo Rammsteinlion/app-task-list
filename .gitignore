@@ -1,2 +1,5 @@
 vendor
 .env
+.heroku/
+.profile.d/
+vendor/
