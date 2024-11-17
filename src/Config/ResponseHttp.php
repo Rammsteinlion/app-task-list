@@ -17,7 +17,7 @@ class ResponseHttp {
             die(json_encode(ResponseHttp::status401('No tiene autorizacion para consumir esta API')));
         }
 
-        $list = ['http://nibiru.test'];        
+        $list = ['http://nibiru.test','https://app-task-list.herokuapp.com/endpoint'];        
 
         if (in_array($origin,$list)){
 
